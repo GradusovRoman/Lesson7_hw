@@ -33,6 +33,7 @@ public class Cat extends Feed {
         this.satietyTime = satietyTime;
         this.satiety = 0;
     }
+
     //показатель сытости кота
     public void eat(Plate p) {
         p.decreaseFood(appetite);

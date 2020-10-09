@@ -17,7 +17,6 @@ public class Feed {
 
         do {
             for (Cat i : cat) {
-
                 //если кот голоден
                 if (i.getSatiety() == 0) {
 
@@ -31,7 +30,6 @@ public class Feed {
                     System.out.println("Кот " + i.getName() + " съел " + i.getAppetite() +
                             " гр. корма ,следующая кормежка у него через " + (i.getSatiety()) + " часа(ов)");
                 }
-
 
                 //уменьшение показателя сытости
                 i.setSatiety(i.getSatiety() - 1);

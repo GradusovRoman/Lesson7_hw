@@ -20,6 +20,7 @@ public class Plate extends Feed {
         this.food += 450;
         System.out.println("Хозяин добавил в миску 450 гр. корма");
     }
+
     //проверка наполненности тарелки
     public boolean checkFood(int n) {
         return (food - n) >= 0;
